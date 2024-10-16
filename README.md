@@ -6,7 +6,7 @@ This is the repo for uncertainty quantification methods for gamma-ray spectromet
 
 The codes are organized as follows:
 -  The Code folder contains the source code for the IAE and the uncertainty calculation by Fisher and MCMC:
-      - Fisher when X is fixed: https://github.com/triem1998/Uncertainty_gamma/blob/ce832c11db09540c8264e866d42893bc54a17d04/codes/uncertainty.py#L70
+      - Fisher when X is fixed: [link](https://github.com/triem1998/Uncertainty_gamma/blob/ce832c11db09540c8264e866d42893bc54a17d04/codes/uncertainty.py#L70)
 -  The Data folder contains the dataset of 96 spectral signatures of 12 radionuclides as a function of steel thickness.
 -  The Notebooks folder contains a jupyter notebook file for quantify the uncertainty
       - The Models folder contains the pre-trained IAE model.
