@@ -20,7 +20,7 @@ The codes are implemented using Pytorch and Pyro. To do it, you will need the pa
   
 If there is a problem with the installation of Pytorch or Pyro, please follow this link to install it correctly: [Pytorch (Cuda or CPU)](https://pytorch.org/get-started/locally/), [Pyro](https://anaconda.org/conda-forge/pyro-ppl)
 
-##  Test code
+##  Test the code
 -  Run [Uncertainty_gamma_spectrometry.ipynb](notebooks/Uncertainty_gamma_spectrometry.ipynb) if you want to see how to use the codes above to quantify the uncertainty.
 
         
