@@ -2,7 +2,7 @@
 
 This is the repo for uncertainty quantification methods for gamma-ray spectrometry.
 
-![ ](illustrations/ci_cri.PNG)
+![ ](illustrations/ci_cri.png)
 
 The codes are organized as follows:
 -  The Code folder contains the source code for the IAE and the uncertainty calculation by Fisher and MCMC
