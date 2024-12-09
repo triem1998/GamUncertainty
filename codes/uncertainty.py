@@ -66,7 +66,7 @@ def cost_function(a,y,X):
     tmp=X.dot(a)
     cost=np.sum(tmp-y*np.log(tmp)) 
     return cost
-# calculate std of a using fisher when X is known
+# calculate std of a using Fisher matrix when X is known
 def std_fisher(X,a):
     """
     Calculate std using the Fisher information matrix
@@ -236,11 +236,12 @@ def model_mcmc(mask,data,model,MVP_tensor,max_channel_list=None,cond=None,min_co
 
 def get_optimal_coverage_interval(data,list_level=np.array([68.2,95.4,99.7])/100):
     """
-    Return HPG credible interval 4D-array: k*m*h*2, k: number of level
+    Return HPG credible interval 
     Parameters
     ----------
     data: 3D-array: m*n*h, m: number of data (spectrum y), n: number of MCMC samples, h: number of parameters (a,lambda)
     list_level: nominal level
+    output: 4D-array: k*m*h*2, k: number of level
     --------------
     """
     sort_data=np.sort(data,1)   
