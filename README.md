@@ -1,6 +1,7 @@
 # Uncertainty quantification for gamma-spectrometry
 
 This is the repo for uncertainty quantification methods for gamma-ray spectrometry.
+![](illustrations/ci_cri.png)
 
 
 The codes are organized as follows:
