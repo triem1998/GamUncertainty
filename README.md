@@ -1,4 +1,4 @@
-# Uncertainty quantification for gamma-spectrometry
+# Uncertainty quantification for spectral unmixing in gamma-ray spectrometry
 
 This is the repo for uncertainty quantification methods for gamma-ray spectrometry.
 ![ ](illustrations/ci_cri.png)
